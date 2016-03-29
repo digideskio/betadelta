@@ -1,0 +1,117 @@
+
+@font-face {
+ font-family: "fira_sans";
+ src: url("Fira_Sans");
+}
+@font-face {
+font-family: "gotham";
+src: url("Gotham all/GothamHTF-Medium.otf");
+}
+body {
+font-family: "gotham", sans-serif !important;
+}
+@media (min-width: 1200px) {
+.container{
+  width: 960px;
+}
+}
+@media (max-width: 992px) {
+.container{
+width: 960px;
+}
+}
+@media (max-width: 760px) {
+.container{
+  width: 750px;
+}
+}
+@media (max-width: 320px) {
+.container{
+  width: 310px;
+}
+}
+header {
+height: 118px;
+}
+nav {
+height:75px;
+margin-top:21px;
+background-color: transparent !important;
+border-color: transparent !important;
+}
+.nav>li>a {
+color: #939393 !important;
+background-color: transparent !important;
+font-weight: 500 !important;
+
+}
+.nav>li>a:hover {
+color: #f07322 !important;
+background-color: transparent !important;
+font-weight: 500 !important;
+}
+.nav>li>a:focus {
+  color: #f07322 !important;
+background-color: transparent !important;
+font-weight: 500 !important;
+}
+.nav>li>a:active {
+  color: #f07322 !important;
+background-color: transparent;
+font-weight: 500 !important;
+
+}
+.navbar-toggle {
+margin-top: 20px !important;
+}
+.thumbnail {
+border: 1px solid transparent !important;
+}
+.carousel-indicators li {
+  width:14px !important;
+  height:14px !important;
+  margin:2px !important;
+}
+.hero-slide-text{
+  top:34%;
+  left:25%;
+  width:390px;
+  text-align: left;
+  text-shadow: none !important;
+}
+.hero-slide-text p {
+  font-size:18px;
+}
+.hero-slide-button {
+
+    border-radius: 0px;
+}
+.slide-btn-1:hover {
+  color:#fff !important;
+  background-color: #bd4300 !important;
+  opacity:0.9;
+}
+.slide-btn-2:hover {
+  color:#fff !important;
+  background-color: #0099d5 !important;
+  opacity:0.9;
+}
+.slide-btn-3:hover {
+  color:#fff !important;
+  background-color: #e58412 !important;
+  opacity:0.9;
+}
+.slide-btn-4:hover {
+  color:#fff !important;
+  background-color: #39567f !important;
+  opacity:0.9;
+}
+.carousel-inner .item{
+  background-image: url("net.png");
+}
+.slide-header {
+  margin-top: 89px;
+}
+object>svg.st0 {
+  fill: black;
+}
