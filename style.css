@@ -25,10 +25,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-top:-15px;
 }
 .hero-slide-text{
+  left:4%;
     top:34%;
     margin-top:-500px;
   text-align: left;
-  width:390px;
+  width:100%;
 }
 .item img {
   float: right!important;
@@ -65,11 +66,12 @@ width: 960px;
 }
 
 .hero-slide-text{
+  left:4%;
     top:34%;
   margin-top:-500px;
   /*width:390px;*/
   text-align: left;
-  width:390px;
+  width:100%;
 }
 #hero-benefits-img{
   width: 582px;
@@ -103,8 +105,12 @@ width: 401px;
 }
 .hero-slide-text{
   top:34%;
-  left:4%;
+  left:0%;
   margin-top:-150px;
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
 
 }
 
@@ -146,8 +152,8 @@ width: 401px;
 }
   .hero-slide-text{
     top:-154px;
-    /*left:4%;
-    margin-top:15px;*/
+    left:0%;
+    /*margin-top:15px;*/
     width:100%;
     margin-left: auto;
     margin-right: auto;
@@ -205,6 +211,7 @@ width: 401px;
   margin-right:auto;
   margin-top:15px;
   width: 100%;
+  left:0%;
  
 }
 #hero-solutions-img {
@@ -281,7 +288,7 @@ border: 1px solid transparent !important;
 }
 .hero-slide-text{
 
-  left:4%;
+  
   
   text-shadow: none !important;
 
