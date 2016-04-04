@@ -136,7 +136,9 @@ width: 401px;
 }
 @media (min-width: 480px) and (max-width: 767px){
   .container{
-    width: 450px;
+    /*width: 450px;*/
+    padding-left: 30px;
+    padding-right:30px;
   }
   .bd-logo{
   width:215px;
@@ -144,28 +146,41 @@ width: 401px;
 }
   .hero-slide-text{
     top:-154px;
-    left:4%;
-    margin-top:15px;
-    width:460px;
+    /*left:4%;
+    margin-top:15px;*/
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #hero-benefits-img{
-    width: 582px;
-    height:729px;
-    margin-top: -160px;
-    margin-left: -117px;
+    /*width: 582px;
+    height:729px;*/
+    width:100%;
+    height:auto;
+    margin-top: -100px;
+        margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   #hero-solutions-img {
-  width: 594px;
-   height: 729px;
+  /*width: 594px;
+   height: 729px;*/
+   width:100%;
+    height:auto;
     margin-top: -130px;
-    margin-left: -117px;
+       margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   #hero-bills-img{
   width: 401px;
    height: 729px;
-  margin-top: -150px;
-    margin-left: -29px;
+  
+ margin-top: -130px;
+        margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   .hero-portal-img{
     width: 537px;
@@ -177,18 +192,19 @@ width: 401px;
 }
 @media (min-width: 320px) and (max-width: 479px) {
 .container{
-  width: 300px;
+  /*width: 300px;*/
 }
 .bd-logo{
     width:215px;
-  top: -72px;
+  top: -12px;
     position: relative;
 }
 .hero-slide-text{
   top:-187px;
-  margin-left:-13%;
+  margin-left:auto;
+  margin-right:auto;
   margin-top:15px;
-  width: 315px;
+  width: 100%;
  
 }
 #hero-solutions-img {
@@ -201,7 +217,7 @@ width: 401px;
   width: 401px;
    height: 729px;
   margin-top: -150px;
-    margin-left: -29px;
+  margin-left: -29px;
   }
 #hero-benefits-img{
     width: 582px;
@@ -221,7 +237,7 @@ width: 401px;
 
 }
 header {
-height: 100px;
+height: 80px;
 }
 
 nav {
