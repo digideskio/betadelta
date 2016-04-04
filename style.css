@@ -4,10 +4,17 @@
 font-family: "gotham";
 src: url("ufonts.com_gotham-light.ttf");
 }
-body {
-font-family: "gotham", sans-serif !important;
-}
 
+@font-face {
+font-family: "gotham-bold";
+src: url("GothamHTF-Bold.otf");
+}
+body {
+font-family: "gotham", sans-serif;
+}
+h1, h2, h3 {
+  font-family: "gotham-bold", sans-serif;
+}
 /* to change menu dropdown on hiver instead of click*/
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
