@@ -1,11 +1,8 @@
 
-@font-face {
- font-family: "fira_sans";
- src: url("Fira_Sans");
-}
+
 @font-face {
 font-family: "gotham";
-src: url("Gotham all/GothamHTF-Medium.otf");
+src: url("ufonts.com_gotham-light.ttf");
 }
 body {
 font-family: "gotham", sans-serif !important;
