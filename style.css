@@ -26,9 +26,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 .hero-slide-text{
     top:34%;
-  margin-top:229px;
-
+    margin-top:-500px;
   text-align: left;
+  width:390px;
 }
 .item img {
   float: right!important;
@@ -66,9 +66,10 @@ width: 960px;
 
 .hero-slide-text{
     top:34%;
-  margin-top:229px;
+  margin-top:-500px;
   /*width:390px;*/
   text-align: left;
+  width:390px;
 }
 #hero-benefits-img{
   width: 582px;
@@ -103,23 +104,28 @@ width: 401px;
 .hero-slide-text{
   top:34%;
   left:4%;
-  margin-top:229px;
+  margin-top:-150px;
+
 }
 
 #hero-benefits-img{
   width: 582px;
   height:729px;
-  float: right!important;
+  margin-top: -60px;
+
+  margin-left: 50px;
 }
 #hero-solutions-img {
 width: 594px;
  height: 729px;
- float: right!important;
+ margin-left: 50px;
+ margin-top:-60px;
 }
 #hero-bills-img{
 width: 401px;
  height: 729px;
- float: right!important;
+ margin-left: 50px;
+ margin-top:-60px;
 }
 .hero-portal-img{
   width: 723px;
@@ -137,27 +143,28 @@ width: 401px;
   margin-top:-15px;
 }
   .hero-slide-text{
-    top:34%;
+    top:-154px;
     left:4%;
     margin-top:15px;
+    width:460px;
   }
 
   #hero-benefits-img{
     width: 582px;
     height:729px;
-    margin-top: 83px;
+    margin-top: -160px;
     margin-left: -117px;
   }
   #hero-solutions-img {
   width: 594px;
    height: 729px;
-   margin-top: 83px;
+    margin-top: -130px;
     margin-left: -117px;
   }
   #hero-bills-img{
   width: 401px;
    height: 729px;
-   margin-top: 83px;
+  margin-top: -150px;
     margin-left: -29px;
   }
   .hero-portal-img{
@@ -178,11 +185,30 @@ width: 401px;
     position: relative;
 }
 .hero-slide-text{
-  top:34%;
-  left:4%;
+  top:-187px;
+  margin-left:-13%;
   margin-top:15px;
-  float: left !important;
+  width: 315px;
+ 
 }
+#hero-solutions-img {
+  width: 594px;
+   height: 729px;
+    margin-top: -130px;
+    margin-left: -117px;
+  }
+  #hero-bills-img{
+  width: 401px;
+   height: 729px;
+  margin-top: -150px;
+    margin-left: -29px;
+  }
+#hero-benefits-img{
+    width: 582px;
+    height:729px;
+    margin-top: -160px;
+    margin-left: -117px;
+  }
 .hero-portal-img{
   width: 450px;
   height: 820px;
@@ -240,8 +266,9 @@ border: 1px solid transparent !important;
 .hero-slide-text{
 
   left:4%;
-  width:390px;
+  
   text-shadow: none !important;
+
 }
 .hero-slide-text p {
   font-size:18px;
