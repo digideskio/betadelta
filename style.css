@@ -9,11 +9,19 @@ src: url("ufonts.com_gotham-light.ttf");
 font-family: "gotham-bold";
 src: url("GothamHTF-Bold.otf");
 }
+
+@font-face {
+  font-family: "fira-light";
+  src: url("Fira_Sans/FiraSans-Light.ttf");
+}
 body {
 font-family: "gotham", sans-serif;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "gotham-bold", sans-serif;
+}
+p {
+  font-family: "fira-light", sans-serif;
 }
 /* to change menu dropdown on hiver instead of click*/
 ul.nav li.dropdown:hover ul.dropdown-menu {
@@ -369,4 +377,9 @@ footer{
   color:#565656;
   margin: 0 auto;
   font-size:10px;
+}
+
+.thumbnail {
+  height:400px;
+  background-color:transparent;
 }
