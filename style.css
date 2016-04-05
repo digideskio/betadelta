@@ -383,3 +383,28 @@ footer{
   height:400px;
   background-color:transparent;
 }
+.ps-btn{
+  border-radius:0px; 
+  border-color:#24516d;
+}
+.ps-btn span {
+  font-weight: 500;
+    margin-right: 8px;
+    letter-spacing: 0.8px;     color: #e24301;
+    font-family: gotham-bold;
+}
+.thumbnail .caption {
+  color: #3e5b5e;
+}
+.benefits-txt-format h2 {
+  color: #f24a00 !important;
+}
+.benefits-txt-format h3 {
+  color: #f24a00 !important;
+}
+.benefits-txt-format .media h3 {
+  color: #f24a00 !important;
+}
+.benefits-txt-format p {
+  color: #545454;
+}
