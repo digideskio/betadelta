@@ -310,6 +310,7 @@ margin-top: 20px !important;
 }
 .thumbnail {
 border: 1px solid transparent !important;
+background-color:transparent;
 }
 .carousel-indicators li {
   width:14px !important;
@@ -379,9 +380,9 @@ footer{
   font-size:10px;
 }
 
-.thumbnail {
+.benefits-torso-component {
   height:400px;
-  background-color:transparent;
+  
 }
 .ps-btn{
   border-radius:0px; 
