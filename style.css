@@ -408,3 +408,9 @@ footer{
 .benefits-txt-format p {
   color: #545454;
 }
+#careers-tab-container{
+  padding:20px;
+}
+#careers-tab-container p{
+  padding:5px;
+}
