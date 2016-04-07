@@ -63,7 +63,7 @@ width: 401px;
 }
 .hero-portal-img{
   width: 960px;
-  height: 820px;
+  height: 720px;
   margin: -138px auto;
 
 }
@@ -152,7 +152,7 @@ width: 401px;
   float: right !important;*/
   width: 100%;
     height: auto;
- 
+
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -200,7 +200,7 @@ width: 401px;
   #hero-bills-img{
   width: 401px;
    height: 729px;
-  
+
  margin-top: -130px;
         margin-left: auto;
     margin-right: auto;
@@ -213,7 +213,7 @@ width: 401px;
     margin-left:-59px;*/
     width: 100%;
     height: auto;
- 
+
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -236,7 +236,7 @@ width: 401px;
   margin-top:15px;
   width: 100%;
   left:0%;
- 
+
 }
 #hero-solutions-img {
   width: 594px;
@@ -263,7 +263,7 @@ width: 401px;
   margin-left:-91px;*/
   width: 100%;
     height: auto;
- 
+
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -318,13 +318,17 @@ border: 1px solid transparent !important;
 }
 .hero-slide-text{
 
-  
-  
+
+
   text-shadow: none !important;
 
 }
 .hero-slide-text p {
   font-size:18px;
+  margin-top: 20px;
+  letter-spacing: 0.3px;
+  margin-bottom: 24px;
+  opacity: 0.8;
 }
 .hero-slide-button {
 
@@ -384,7 +388,7 @@ footer{
   background-color:transparent;
 }
 .ps-btn{
-  border-radius:0px; 
+  border-radius:0px;
   border-color:#24516d;
 }
 .ps-btn span {
@@ -413,4 +417,28 @@ footer{
 }
 #careers-tab-container p{
   padding:5px;
+}
+.footer-groups{
+  width: 20%;
+}
+.footer-items{
+  margin: 10px 0px 0px 0px;
+  font-size: 12px;
+  color: #222;
+}
+.footer-items:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
+.footer-style{
+  height:auto;
+  background-color: #ededed;
+  border: 1px solid transparent;
+  color:#565656;
+  margin: 0 auto;
+  font-size:10px;
+  padding:29px 0px;
+}
+.header-links{
+  font-family: "gotham-bold";
 }
