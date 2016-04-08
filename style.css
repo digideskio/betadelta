@@ -479,12 +479,24 @@ footer{
 }
 .benefits-txt-format h3 {
   color: #f24a00 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+.benefits-section-title{
+  
 }
 .benefits-txt-format .media h3 {
   color: #f24a00 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
 }
 .benefits-txt-format p {
   color: #545454;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 13px;
 }
 #careers-tab-container{
   padding:20px;
