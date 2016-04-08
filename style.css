@@ -142,7 +142,7 @@ width: 401px;
 }
 .solutions-head-img{
   width: 100%;
-  height:480px;
+  height:auto;
 }
 .bills-row-one{
   margin-top: 90px;
@@ -152,7 +152,34 @@ width: 401px;
 } 
 .level-2-torso {
   margin-top: -393px; 
-}              
+}  
+
+.payment-torso {
+  margin-top:-480px;
+}
+
+.solution-name{
+  color:#5E6062;
+  float: left;
+  margin-right: 10px;
+  margin-top: 14px;
+}
+.solution-tagline{
+  font-family: "fira-light";
+  color: #F07322;
+  letter-spacing: -0.8px;
+}
+
+
+.service-logo{
+  float: left;
+  margin-left: -5px;
+  margin-right: -25px;
+} 
+.service-logo img{
+  width: 70%;
+  margin-right: -60px;
+}           
 }
 
 
@@ -163,7 +190,10 @@ width: 960px;
 header {
 height: 80px;
 }
-
+.solutions-head-img{
+  width: 100%;
+  height:auto;
+}
 .carousel-indicators li {
   width:14px !important;
   height:14px !important;
@@ -273,6 +303,32 @@ width: 401px;
 #careers-tab-container ul{
   margin-top: -23%
 } 
+
+.payment-torso {
+  margin-top:-480px;
+}
+
+.solution-name{
+  color:#5E6062;
+  float: left;
+  margin-right: 10px;
+  margin-top: 14px;
+}
+.solution-tagline{
+  font-family: "fira-light";
+  color: #F07322;
+  letter-spacing: -0.8px;
+}
+
+.service-logo{
+  float: left;
+  margin-left: -5px;
+  margin-right: -25px;
+}
+.service-logo img{
+  width: 70%;
+  margin-right: -60px;
+}
 }
 
 
@@ -287,6 +343,10 @@ header {
 height: 80px;
 }
 
+.solutions-head-img{
+  width: 100%;
+  height:auto;
+}
 .level-2-torso {
   margin-top: -387px; 
 }
@@ -415,6 +475,33 @@ width: 401px;
 #careers-tab-container ul{
   margin-top: -43%
 }
+.payment-torso {
+  margin-top:-551px;
+}
+
+.solution-name{
+  color:#5E6062;
+  float: left;
+  margin-right: 10px;
+  margin-top: 14px;
+  font-size: 32px;
+    margin-left: -14px;
+}
+.solution-tagline{
+  font-family: "fira-light";
+  color: #F07322;
+  letter-spacing: -0.8px;
+  font-size: 20px;
+}
+.service-logo{
+  float: left;
+  margin-left: -5px;
+  margin-right: -25px;
+}
+.service-logo img{
+  width: 60%;
+  margin-right: -60px;
+}
 }
 
 
@@ -427,6 +514,11 @@ width: 401px;
   header {
 height: 32px;
  top:-25px;
+}
+
+.solutions-head-img{
+  width: 100%;
+  height:auto;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent !important;
@@ -567,6 +659,33 @@ height:95vh;
 #careers-tab-container ul{
   margin-top: -43%
 }
+.solution-name{
+  color:#5E6062;
+  float: left;
+  margin-right: 10px;
+  margin-top: 14px;
+   font-size: 26px;
+  margin-top: 20px;
+}
+.solution-tagline{
+  font-family: "fira-light";
+  color: #F07322;
+  letter-spacing: -0.8px;
+   padding-top: 10px;
+   font-size:16px;
+}
+.service-logo{
+  float: left;
+  margin-left: -5px;
+  margin-right: -25px;
+}
+.service-logo img{
+  width: 70%;
+  margin-right: -60px;
+}
+.payment-torso {
+  margin-top: -112px;
+}
 }
 
 
@@ -587,6 +706,10 @@ h2 {
   font-size: 16px;
  }
 
+.solutions-head-img{
+  width: 100%;
+  height:auto;
+}
  .carousel-indicators li {
   width:22px !important;
   height:22px !important;
@@ -732,6 +855,36 @@ margin-top:19px;
 
 #careers-tab-container ul{
   margin-top: -113%
+}
+
+.payment-torso {
+  margin-top: -306px;
+}
+
+.solution-name{
+  color:#5E6062;
+  float: left;
+  margin-right: 10px;
+  margin-top: 14px;
+   font-size: 26px;
+  margin-top: 20px;
+}
+.solution-tagline{
+  font-family: "fira-light";
+  color: #F07322;
+  letter-spacing: -0.8px;
+   padding-top: 10px;
+   font-size:16px;
+}
+
+.service-logo{
+  float: left;
+  margin-left: 15px;
+  margin-right: -71px;
+}
+.service-logo img{
+  width: 50%;
+  margin-right: -17px;
 }
 
 }
@@ -921,34 +1074,18 @@ footer{
 }
 
 .solutions-hero-section{
-  height: 480px;
+  height: auto;
   background: #FFF2E6;
 }
-.solution-name{
-  color:#5E6062;
-  float: left;
-  margin-right: 10px;
-  margin-top: 14px;
-}
-.service-logo{
-  float: left;
-  margin-left: -5px;
-  margin-right: -25px;
-}
-.service-logo img{
-  width: 70%;
-  margin-right: -60px;
-}
+
+
+
 .solutions-separation{
   width: 10px;
   margin-right: 10px;
   float: left;
 }
-.solution-tagline{
-  font-family: "fira-light";
-  color: #F07322;
-  letter-spacing: -0.8px;
-}
+
 .solution-text{
   color:#5E6062;
   float: left;
@@ -969,4 +1106,8 @@ footer{
   margin-bottom: 34px;
   letter-spacing: 1.8px;
   color: #F07322;
+}
+.bills-head-text {
+  color: #5E6062; text-shadow: none;
+    text-align: left;
 }
