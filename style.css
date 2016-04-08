@@ -46,7 +46,7 @@ height: 80px;
 }
 
 .level-2-torso {
-  margin-top: -441px; 
+  margin-top: -441px;
 }
 .bd-logo{
   width:215px;
@@ -77,7 +77,7 @@ background:linear-gradient(
   }
 
   #bills-gradient {
-background:linear-gradient(110deg, #af5c9f, #72549e); 
+background:linear-gradient(110deg, #af5c9f, #72549e);
 height:820px;
   }
 
@@ -138,12 +138,11 @@ width: 401px;
 
 }
 .bills-head-text{
-
   margin-top:160px;
 }
-.bills-head-img{
+.solutions-head-img{
   width: 100%;
-  height:520px;
+  height:480px;
 }
 .bills-row-one{
   margin-top: 90px;
@@ -171,7 +170,9 @@ height: 80px;
   margin:2px !important;
 }
 .level-2-torso {
+
   margin-top: -389px; 
+
 }
 .bd-logo{
   width:215px;
@@ -197,7 +198,7 @@ background:linear-gradient(
   }
 
   #bills-gradient {
-background:linear-gradient(110deg, #af5c9f, #72549e); 
+background:linear-gradient(110deg, #af5c9f, #72549e);
 height:820px;
   }
 
@@ -280,7 +281,7 @@ width: 401px;
   width: 750px;
 }
   .level-2-torso {
-  margin-top: 0px; 
+  margin-top: 0px;
 }
 header {
 height: 80px;
@@ -313,7 +314,7 @@ background:linear-gradient(
   }
 
   #bills-gradient {
-background:linear-gradient(110deg, #af5c9f, #72549e); 
+background:linear-gradient(110deg, #af5c9f, #72549e);
 height:95vh;
   }
 
@@ -396,14 +397,14 @@ width: 401px;
 .bills-head-text{
 
 
-  margin-top:0px; 
-   
+  margin-top:0px;
+
 
 }
 .bills-head-img{
   width: 360px;
   height:auto;
-  
+
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -439,7 +440,7 @@ height: 32px;
 }
 
   .level-2-torso {
-  margin-top: -393px; 
+  margin-top: -393px;
 }
   .bd-logo{
     width:131px;
@@ -467,7 +468,7 @@ background:linear-gradient(
   }
 
   #bills-gradient {
-background:linear-gradient(110deg, #af5c9f, #72549e); 
+background:linear-gradient(110deg, #af5c9f, #72549e);
 height:95vh;
   }
 
@@ -487,7 +488,7 @@ height:95vh;
   }
 
  /* #hero-benefits-img{
-    
+
     height:auto;
     margin-top: -100px;
         margin-left: auto;
@@ -495,7 +496,7 @@ height:95vh;
     display: block;
   }
   #hero-solutions-img {
-  
+
     height:auto;
     margin-top: -130px;
        margin-left: auto;
@@ -512,7 +513,7 @@ height:95vh;
     display: block;
   }*/
   .hero-portal-img{
-   
+
     width: 100%;
     height: auto;
 
@@ -597,7 +598,7 @@ h2 {
     opacity: 0.3 !important;
 }
 .level-2-torso {
-  margin-top: -393px; 
+  margin-top: -393px;
 }
 
 .bd-logo{
@@ -626,7 +627,7 @@ background:linear-gradient(
   }
 
   #bills-gradient {
-background:linear-gradient(110deg, #af5c9f, #72549e); 
+background:linear-gradient(110deg, #af5c9f, #72549e);
 height:95vh;
   }
 
@@ -691,9 +692,9 @@ margin-top:19px;
     height:auto;
     /*margin-left: -114px;*/
   }
-  
+
 .hero-portal-img{
- 
+
   width: 300%;
     height: auto;
 
@@ -869,7 +870,7 @@ footer{
   text-align: center;
 }
 .benefits-section-title{
-  
+
 }
 .benefits-txt-format .media h3 {
   color: #f24a00 !important;
@@ -919,3 +920,53 @@ footer{
    color:#fff;
 }
 
+.solutions-hero-section{
+  height: 480px;
+  background: #FFF2E6;
+}
+.solution-name{
+  color:#5E6062;
+  float: left;
+  margin-right: 10px;
+  margin-top: 14px;
+}
+.service-logo{
+  float: left;
+  margin-left: -5px;
+  margin-right: -25px;
+}
+.service-logo img{
+  width: 70%;
+  margin-right: -60px;
+}
+.solutions-separation{
+  width: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.solution-tagline{
+  font-family: "fira-light";
+  color: #F07322;
+  letter-spacing: -0.8px;
+}
+.solution-text{
+  color:#5E6062;
+  float: left;
+}
+.small-payments-images{
+  width: 60px;
+  height: 53px;
+}
+.small-payment-images-heading{
+  color: #545454;
+  font-family: "fira-light";
+  font-size: 16px;
+}
+.solutions-section-heading{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 34px;
+  letter-spacing: 1.8px;
+  color: #F07322;
+}
