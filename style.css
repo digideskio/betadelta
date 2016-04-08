@@ -923,24 +923,59 @@ footer{
   color: #F07322;
   letter-spacing: -0.8px;
 }
+.solution-tagline-recharge {
+    font-family: "fira-light";
+    color: #F07322;
+    letter-spacing: -0.8px;
+    padding-top: 12px;
+}
 .solution-text{
   color:#5E6062;
   float: left;
+  margin-top: 12px;
 }
 .small-payments-images{
   width: 60px;
   height: 53px;
 }
-.small-payment-images-heading{
+.small-payment-images-heading {
   color: #545454;
-  font-family: "fira-light";
+  font-family: "fira-medium";
   font-size: 16px;
 }
 .solutions-section-heading{
   font-size: 16px;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 34px;
   letter-spacing: 1.8px;
   color: #F07322;
+}
+.solutions-section-text{
+  font-family: "fira-light";
+  font-size: 18px;
+  line-height: 25px;
+}
+.technology-sections-headings{
+  font-family: "gotham-medium";
+  font-size: 20px;
+  text-align: center;
+}
+.technology-section-headings{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 34px;
+  letter-spacing: 1.8px;
+  color: #3e5b5e;
+}
+.textnology-section-text{
+  font-size: 16px;
+  text-align: center;
+}
+.merchant-categories{
+  font-family: "fira-medium";
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 12px;
 }
