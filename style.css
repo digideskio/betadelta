@@ -14,6 +14,14 @@ src: url("GothamHTF-Bold.otf");
   font-family: "fira-light";
   src: url("Fira_Sans/FiraSans-Light.ttf");
 }
+@font-face {
+  font-family:"gotham-medium";
+  src:url('GothamHTF-Medium.otf');
+}
+@font-face {
+  font-family:"fira-medium";
+  src:url('Fira_Sans/FiraSans-Medium.ttf');
+}
 body {
 font-family: "gotham", sans-serif;
 }
@@ -28,7 +36,6 @@ p {
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
-
 
 @media (min-width: 1200px) {
 .container{
