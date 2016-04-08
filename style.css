@@ -69,12 +69,11 @@ width: 401px;
 
 }
 .bills-head-text{
-
   margin-top:160px;
 }
-.bills-head-img{
+.solutions-head-img{
   width: 100%;
-  height:520px;
+  height:480px;
 }
 .bills-row-one{
   margin-top: 90px;
@@ -484,7 +483,7 @@ footer{
   text-align: center;
 }
 .benefits-section-title{
-  
+
 }
 .benefits-txt-format .media h3 {
   color: #f24a00 !important;
@@ -533,4 +532,52 @@ footer{
   text-align: left;
    color:#fff;
 }
->>>>>>> 13d46f07a4fe7cac7134ec683695e9c667a47e67
+.solutions-hero-section{
+  height: 480px;
+  background: #FDE7D2;
+}
+.solution-name{
+  color:#5E6062;
+  float: left;
+  margin-right: 10px;
+  margin-top: 14px;
+}
+.service-logo{
+  float: left;
+  margin-left: -5px;
+  margin-right: -25px;
+}
+.service-logo img{
+  width: 70%;
+  margin-right: -60px;
+}
+.solutions-separation{
+  width: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.solution-tagline{
+  font-family: "fira-light";
+  color: #F07322;
+  letter-spacing: -0.8px;
+}
+.solution-text{
+  color:#5E6062;
+  float: left;
+}
+.small-payments-images{
+  width: 60px;
+  height: 53px;
+}
+.small-payment-images-heading{
+  color: #545454;
+  font-family: "fira-light";
+  font-size: 16px;
+}
+.solutions-section-heading{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 34px;
+  letter-spacing: 1.8px;
+}
