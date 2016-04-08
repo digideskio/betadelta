@@ -148,6 +148,12 @@ width: 401px;
 .bills-row-one{
   margin-top: 90px;
 }
+#careers-tab-container ul{
+  margin-top: -23%
+} 
+.level-2-torso {
+  margin-top: -393px; 
+}              
 }
 
 
@@ -165,7 +171,7 @@ height: 80px;
   margin:2px !important;
 }
 .level-2-torso {
-  margin-top: -441px; 
+  margin-top: -389px; 
 }
 .bd-logo{
   width:215px;
@@ -263,6 +269,9 @@ width: 401px;
 .bills-row-one{
   margin-top: 90px;
 }
+#careers-tab-container ul{
+  margin-top: -23%
+} 
 }
 
 
@@ -275,6 +284,10 @@ width: 401px;
 }
 header {
 height: 80px;
+}
+
+.level-2-torso {
+  margin-top: -387px; 
 }
 .carousel-indicators li {
   width:14px !important;
@@ -397,6 +410,9 @@ width: 401px;
 }
 .bills-row-one{
   margin-top: 45px;
+}
+#careers-tab-container ul{
+  margin-top: -43%
 }
 }
 
@@ -545,6 +561,10 @@ height:95vh;
   color: #40608e;
     text-align: center;
     line-height: 30.2px;
+}
+
+#careers-tab-container ul{
+  margin-top: -43%
 }
 }
 
@@ -707,6 +727,10 @@ margin-top:19px;
 }
 .bills-row-one{
   margin-top: -65px;
+}
+
+#careers-tab-container ul{
+  margin-top: -113%
 }
 
 }
