@@ -19,6 +19,7 @@ font-family: "gotham", sans-serif;
 }
 h1, h2, h3, h4 {
   font-family: "gotham-bold", sans-serif;
+  opacity: 0.95;
 }
 p {
   font-family: "fira-light", sans-serif;
@@ -33,10 +34,71 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .container{
   width: 960px;
 }
+header {
+height: 80px;
+}
+
+.level-2-torso {
+  margin-top: -441px; 
+}
 .bd-logo{
   width:215px;
   margin-top:-15px;
 }
+
+.carousel-indicators li {
+  width:14px !important;
+  height:14px !important;
+  margin:2px !important;
+}
+.hero-hexa {
+
+    background: url('net.png') no-repeat;
+    background-position: 48% 64%;
+    background-size: 4000px 100%;
+    height: 100%;
+  }
+
+   #benefits-gradient{
+    background-image: linear-gradient(110deg, #d36f00, #ffb200);
+    height:820px;
+  }
+    #payments-gradient{
+background:linear-gradient(
+      110deg, #00334c, #25c1ff
+    ); height:820px;
+  }
+
+  #bills-gradient {
+background:linear-gradient(110deg, #af5c9f, #72549e); 
+height:820px;
+  }
+
+
+#portal-gradient{
+  background:linear-gradient(
+      110deg, #fdffe9, #f0ffff
+    ); height:820px;
+}
+
+.hero-btn-text {
+ font-family: "gotham-bold";
+    margin-right: 8px;
+    letter-spacing: 0.8px;
+}
+#hero-portal-text {
+  right: 82px;
+    left: 0px;
+    width: 100%;
+    top: -50px;
+}
+
+.slide-header{
+  color: #40608e;
+    text-align: center;
+    line-height: 30.2px;
+}
+
 .hero-slide-text{
   left:4%;
     top:34%;
@@ -86,10 +148,71 @@ width: 401px;
 .container{
 width: 960px;
 }
+header {
+height: 80px;
+}
+
+.carousel-indicators li {
+  width:14px !important;
+  height:14px !important;
+  margin:2px !important;
+}
+.level-2-torso {
+  margin-top: -441px; 
+}
 .bd-logo{
   width:215px;
   margin-top:-15px;
 }
+
+.hero-hexa {
+
+    background: url('net.png') no-repeat;
+    background-position: 48% 64%;
+    background-size: 4000px 100%;
+    height: 100%;
+  }
+
+   #benefits-gradient{
+    background-image: linear-gradient(110deg, #d36f00, #ffb200);
+    height:820px;
+  }
+    #payments-gradient{
+background:linear-gradient(
+      110deg, #00334c, #25c1ff
+    ); height:820px;
+  }
+
+  #bills-gradient {
+background:linear-gradient(110deg, #af5c9f, #72549e); 
+height:820px;
+  }
+
+
+#portal-gradient{
+  background:linear-gradient(
+      110deg, #fdffe9, #f0ffff
+    ); height:820px;
+}
+
+.hero-btn-text {
+ font-family: "gotham-bold";
+    margin-right: 8px;
+    letter-spacing: 0.8px;
+}
+#hero-portal-text {
+  right: 82px;
+    left: 0px;
+    width: 100%;
+    top: -50px;
+}
+
+.slide-header{
+  color: #40608e;
+    text-align: center;
+    line-height: 30.2px;
+}
+
 
 .hero-slide-text{
   left:4%;
@@ -140,6 +263,70 @@ width: 401px;
 .container{
   width: 750px;
 }
+  .level-2-torso {
+  margin-top: 0px; 
+}
+header {
+height: 80px;
+}
+.carousel-indicators li {
+  width:14px !important;
+  height:14px !important;
+  margin:2px !important;
+}
+.hero-hexa {
+
+    background: url('net.png') no-repeat;
+    background-position: 48% 64%;
+    background-size: 4000px 100%;
+    height: 100%;
+  }
+
+   #benefits-gradient{
+    background-image: linear-gradient(110deg, #d36f00, #ffb200);
+    height:83vh;
+  }
+    #payments-gradient{
+background:linear-gradient(
+      110deg, #00334c, #25c1ff
+    ); height:83vh;
+  }
+
+  #bills-gradient {
+background:linear-gradient(110deg, #af5c9f, #72549e); 
+height:95vh;
+  }
+
+
+#portal-gradient{
+  background:linear-gradient(
+      110deg, #fdffe9, #f0ffff
+    ); height:95vh;
+}
+.hero-slides{
+  width: 68%;
+    height: auto;
+    margin: -40px auto 40px auto;
+}
+.hero-btn-text {
+ font-family: "gotham-bold";
+    margin-right: 8px;
+    letter-spacing: 0.8px;
+}
+#hero-portal-text {
+  right: 82px;
+    left: 0px;
+    width: 100%;
+    top: -50px;
+}
+
+.slide-header{
+  color: #40608e;
+    text-align: center;
+    line-height: 30.2px;
+}
+
+
 .bd-logo{
   width:215px;
   margin-top:-15px;
@@ -155,7 +342,7 @@ width: 401px;
 
 }
 
-#hero-benefits-img{
+/*#hero-benefits-img{
   width: 582px;
   height:729px;
   margin-top: -60px;
@@ -178,23 +365,26 @@ width: 401px;
   /*width: 723px;
   height: 820px;
   margin: -138px auto;
-  float: right !important;*/
+  float: right !important;
   width: 100%;
     height: auto;
  
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
+}*/
 .bills-head-text{
 
-  margin-top:160px; 
+  margin-top:0px; 
    
 }
 .bills-head-img{
-  width: 100%;
+  width: 360px;
   height:auto;
-  margin-top:50px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .bills-row-one{
   margin-top: 45px;
@@ -208,9 +398,59 @@ width: 401px;
     padding-left: 30px;
     padding-right:30px;
   }
+  header {
+height: 32px;
+ top:-25px;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent !important;
+  top: -31px !important;
+    opacity: 0.3 !important;
+}
+.carousel-indicators li {
+  width:14px !important;
+  height:14px !important;
+  margin:2px !important;
+}
+
+  .level-2-torso {
+  margin-top: -393px; 
+}
   .bd-logo{
-  width:215px;
-  margin-top:-15px;
+    width:131px;
+  top: -26px;
+    position: relative;
+    left:-5px;
+}
+
+.hero-hexa {
+
+    background: url('net.png') no-repeat;
+    background-position: 48% 64%;
+    background-size: 4000px 100%;
+    height: 100%;
+  }
+
+   #benefits-gradient{
+    background-image: linear-gradient(110deg, #d36f00, #ffb200);
+    height:83vh;
+  }
+    #payments-gradient{
+background:linear-gradient(
+      110deg, #00334c, #25c1ff
+    ); height:83vh;
+  }
+
+  #bills-gradient {
+background:linear-gradient(110deg, #af5c9f, #72549e); 
+height:95vh;
+  }
+
+
+#portal-gradient{
+  background:linear-gradient(
+      110deg, #fdffe9, #f0ffff
+    ); height:83vh;
 }
   .hero-slide-text{
     top:-154px;
@@ -221,10 +461,8 @@ width: 401px;
     margin-right: auto;
   }
 
-  #hero-benefits-img{
-    /*width: 582px;
-    height:729px;*/
-    width:100%;
+ /* #hero-benefits-img{
+    
     height:auto;
     margin-top: -100px;
         margin-left: auto;
@@ -232,9 +470,7 @@ width: 401px;
     display: block;
   }
   #hero-solutions-img {
-  /*width: 594px;
-   height: 729px;*/
-   width:100%;
+  
     height:auto;
     margin-top: -130px;
        margin-left: auto;
@@ -249,12 +485,9 @@ width: 401px;
         margin-left: auto;
     margin-right: auto;
     display: block;
-  }
+  }*/
   .hero-portal-img{
-    /*width: 537px;
-    height: 820px;
-    margin-top: -207px;
-    margin-left:-59px;*/
+   
     width: 100%;
     height: auto;
  
@@ -263,19 +496,46 @@ width: 401px;
     display: block;
 
   }
+.hero-slides{
+  width: 64%;
+    height: auto;
+    margin: -40px auto 40px auto;
+}
 
+.hero-btn-text {
+ font-family: "gotham-bold";
+    margin-right: 8px;
+    letter-spacing: 0.8px;
+}
   .bills-head-text{
 
   margin-top:-75px; 
    
 }
 .bills-head-img{
-  width: 100%;
-  height:auto;
-  margin-top:50px;
+ width: 320px;
+    height: auto;
+    /* margin-top: 50px; */
+    /* margin-top: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .bills-row-one{
   margin-top: -65px;
+}
+
+#hero-portal-text {
+  right: 82px;
+    left: 0px;
+    width: 100%;
+    top: -50px;
+}
+
+.slide-header{
+  color: #40608e;
+    text-align: center;
+    line-height: 30.2px;
 }
 }
 
@@ -284,50 +544,142 @@ width: 401px;
 .container{
   /*width: 300px;*/
 }
-.bd-logo{
-    width:215px;
-  top: -12px;
-    position: relative;
+
+header {
+  height:32px;
 }
+
+h2 {
+  font-size: 25px;
+
+}
+ p{
+  font-size: 16px;
+ }
+
+ .carousel-indicators li {
+  width:22px !important;
+  height:22px !important;
+  margin:2px !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent !important;
+  top: -31px !important;
+    opacity: 0.3 !important;
+}
+.level-2-torso {
+  margin-top: -393px; 
+}
+
+.bd-logo{
+    width:131px;
+  top: -26px;
+    position: relative;
+    left:-5px;
+}
+
+.hero-hexa {
+
+    background: url('net.png') no-repeat;
+    background-position: 48% 64%;
+    background-size: 4000px 100%;
+    height: 100%;
+  }
+
+  #benefits-gradient{
+    background-image: linear-gradient(110deg, #d36f00, #ffb200);
+    height:83vh;
+  }
+    #payments-gradient{
+background:linear-gradient(
+      110deg, #00334c, #25c1ff
+    ); height:83vh;
+  }
+
+  #bills-gradient {
+background:linear-gradient(110deg, #af5c9f, #72549e); 
+height:95vh;
+  }
+
+
+#portal-gradient{
+  background:linear-gradient(
+      110deg, #fdffe9, #f0ffff
+    ); height:95vh;
+}
+
 .hero-slide-text{
   top:-187px;
   margin-left:auto;
   margin-right:auto;
-  margin-top:15px;
+  margin-top:46px;
   width: 100%;
   left:0%;
  
 }
+.slide-header{
+  color: #40608e;
+    text-align: center;
+    line-height: 30.2px;
+}
+
+.hero-slides{
+  width: 60%;
+    height: auto;
+    margin: -40px auto 40px auto;
+}
+
+.hero-slide-text button{
+margin-top:19px;
+}
+.hero-btn-text {
+ font-family: "gotham-bold";
+    margin-right: 8px;
+    letter-spacing: 0.8px;
+}
+
 #hero-solutions-img {
-  width: 594px;
-   height: 729px;
-    margin-top: -130px;
-    margin-left: -117px;
+  width: 396px;
+   height: auto;
+    margin-top: -18px;
+    margin-left: -54px;
+  }
+
+  #hero-solutions-text{
+    margin-top: 80px;
   }
   #hero-bills-img{
-  width: 401px;
-   height: 729px;
-  margin-top: -150px;
-  margin-left: -29px;
+  width: 306px;
+    height: auto;
+    margin-top: -67px;
+    margin-left: -1px;
+  }
+  #hero-bills-mob-margin{
+    margin-top:60px;
   }
 #hero-benefits-img{
-    width: 582px;
-    height:729px;
-    margin-top: -160px;
-    margin-left: -117px;
+    width: 473px;
+    height:auto;
+    /*margin-left: -114px;*/
   }
+  
 .hero-portal-img{
-  /*width: 450px;
-  height: 820px;
-  margin-top: -207px;
-  margin-left:-91px;*/
-  width: 100%;
+ 
+  width: 300%;
     height: auto;
  
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -151px;
+    margin-right: -39px;
     display: block;
+    margin-top:-183px;
 
+}
+
+#hero-portal-text {
+  right: 82px;
+    left: 0px;
+    width: 100%;
+    top: -187px;
 }
 .bills-head-text{
 
@@ -335,9 +687,13 @@ width: 401px;
    
 }
 .bills-head-img{
-  width: 100%;
-  height:auto;
-  margin-top:50px;
+  width: 320px;
+    height: auto;
+    /* margin-top: 50px; */
+    /* margin-top: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .bills-row-one{
   margin-top: -65px;
@@ -346,9 +702,6 @@ width: 401px;
 }
 
 
-header {
-height: 80px;
-}
 
 nav {
 height:75px;
@@ -385,11 +738,7 @@ margin-top: 20px !important;
 border: 1px solid transparent !important;
 background-color:transparent;
 }
-.carousel-indicators li {
-  width:14px !important;
-  height:14px !important;
-  margin:2px !important;
-}
+
 .hero-slide-text{
 
   
@@ -397,9 +746,7 @@ background-color:transparent;
   text-shadow: none !important;
 
 }
-.hero-slide-text p {
-  font-size:18px;
-}
+
 .hero-slide-button {
 
     border-radius: 0px;
@@ -428,7 +775,7 @@ background-color:transparent;
   background-image: url("net.png");
 }
 .slide-header {
-  margin-top: 89px;
+  margin-top: 49px;
 }
 object>svg.st0 {
   fill: black;
