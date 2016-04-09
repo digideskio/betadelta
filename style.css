@@ -37,6 +37,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
 
+.carousel-caption a{
+  color: #fff;
+}
+
 @media (min-width: 1200px) {
 .container{
   width: 960px;
